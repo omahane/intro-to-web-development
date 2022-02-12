@@ -1,12 +1,13 @@
 # Introduction to Web Development
 
 ```mermaid
-    [*] --> Still
-    Still --> [*]
-
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
+stateDiagram-v2
+    [You] --> LAN
+    LAN --> WAN
+    WAN --> ISP
+    ISP --> DNS
+    DNS --> WAN2
+    WAN2 --> LAN2
+    LAN2 --> Sever
 ```
 

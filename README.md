@@ -1,7 +1,7 @@
 # Introduction to Web Development
 
 ```mermaid
-stateDiagram-v2
+stateDiagram-v2 LR
     You --> your_LAN
     your_LAN --> WAN
     neighbor_LAN --> WAN

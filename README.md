@@ -1,11 +1,4 @@
 # Introduction to Web Development
 
 - [Internet Graph](internet-graph.md)
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+- [Internet Graph (Single User)](internet-graph-single.md)

@@ -21,8 +21,7 @@ stateDiagram-v2
     LANc3 --> WANc
     WANc --> ISP
     ISP --> DNS
-    DNS --> WAN2
-    WAN2 --> LAN2
-    LAN2 --> Sever
+    DNS --> ISP
+    ISP --> Internet
 ```
 

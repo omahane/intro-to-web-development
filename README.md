@@ -1,11 +1,12 @@
 # Introduction to Web Development
 
-```plantuml
-actor client
-node app
-database db
+```mermaid
+    [*] --> Still
+    Still --> [*]
 
-db -> app
-app -> client
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
 ```
 

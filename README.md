@@ -2,8 +2,8 @@
 
 ```mermaid
 stateDiagram-v2
-    You --> yourLAN
-    yLAN[your LAN] --> WAN
+    You --> yLAN[your LAN]
+    yLAN --> WAN
     nLAN[neighbor LAN] --> WAN
     rLAN[rando LAN] --> WAN
     WAN --> ISP

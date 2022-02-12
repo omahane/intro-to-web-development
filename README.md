@@ -2,8 +2,10 @@
 
 ```mermaid
 stateDiagram-v2
-    [You] --> LAN
-    LAN --> WAN
+    You --> yourLAN
+    your LAN --> WAN
+    neighbor LAN --> WAN
+    rando LAN --> WAN
     WAN --> ISP
     ISP --> DNS
     DNS --> WAN2
